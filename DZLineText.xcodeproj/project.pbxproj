@@ -15,6 +15,8 @@
 		E10D05021C1EA04C00C86BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10D05001C1EA04C00C86BA3 /* LaunchScreen.storyboard */; };
 		E10D050D1C1EA04C00C86BA3 /* DZLineTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E10D050C1C1EA04C00C86BA3 /* DZLineTextTests.m */; };
 		E10D05181C1EA04C00C86BA3 /* DZLineTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E10D05171C1EA04C00C86BA3 /* DZLineTextUITests.m */; };
+		E10D05271C1EA05B00C86BA3 /* DZRunRef.m in Sources */ = {isa = PBXBuildFile; fileRef = E10D05261C1EA05B00C86BA3 /* DZRunRef.m */; };
+		E10D052D1C1ED29600C86BA3 /* DZLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E10D052C1C1ED29600C86BA3 /* DZLineLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E10D05131C1EA04C00C86BA3 /* DZLineTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZLineTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10D05171C1EA04C00C86BA3 /* DZLineTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZLineTextUITests.m; sourceTree = "<group>"; };
 		E10D05191C1EA04C00C86BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10D05251C1EA05B00C86BA3 /* DZRunRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZRunRef.h; sourceTree = "<group>"; };
+		E10D05261C1EA05B00C86BA3 /* DZRunRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZRunRef.m; sourceTree = "<group>"; };
+		E10D052B1C1ED29600C86BA3 /* DZLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLineLayout.h; sourceTree = "<group>"; };
+		E10D052C1C1ED29600C86BA3 /* DZLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLineLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				E10D04F61C1EA04C00C86BA3 /* AppDelegate.m */,
 				E10D04F81C1EA04C00C86BA3 /* ViewController.h */,
 				E10D04F91C1EA04C00C86BA3 /* ViewController.m */,
+				E10D05251C1EA05B00C86BA3 /* DZRunRef.h */,
+				E10D05261C1EA05B00C86BA3 /* DZRunRef.m */,
+				E10D052B1C1ED29600C86BA3 /* DZLineLayout.h */,
+				E10D052C1C1ED29600C86BA3 /* DZLineLayout.m */,
 				E10D04FB1C1EA04C00C86BA3 /* Main.storyboard */,
 				E10D04FE1C1EA04C00C86BA3 /* Assets.xcassets */,
 				E10D05001C1EA04C00C86BA3 /* LaunchScreen.storyboard */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10D04FA1C1EA04C00C86BA3 /* ViewController.m in Sources */,
+				E10D052D1C1ED29600C86BA3 /* DZLineLayout.m in Sources */,
+				E10D05271C1EA05B00C86BA3 /* DZRunRef.m in Sources */,
 				E10D04F71C1EA04C00C86BA3 /* AppDelegate.m in Sources */,
 				E10D04F41C1EA04C00C86BA3 /* main.m in Sources */,
 			);
